@@ -1,5 +1,5 @@
 class DraftPage {
-  elements = { };
+  elements = {};
 
   // function example
   draft() {
