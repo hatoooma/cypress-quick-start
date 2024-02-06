@@ -1,0 +1,35 @@
+{
+  "env": {
+    "browser": true,
+    "es2021": true
+  },
+
+  "extends": ["airbnb-base", "plugin:cypress/recommended"],
+  "overrides": [],
+  "parserOptions": {
+    "ecmaVersion": "latest",
+    "sourceType": "module"
+  },
+
+  "plugins": ["cypress", "cucumber"],
+
+  "rules": {
+    "cypress/no-unnecessary-waiting": 0,
+    "global-require": 0,
+    "no-plusplus": 0,
+    "linebreak-style": 0,
+    "import/no-unresolved": 0,
+    "import/no-extraneous-dependencies": 0,
+    "radix": 0,
+    "import/no-import-module-exports": 0,
+    "implicit-arrow-linebreak": 0,
+    "class-methods-use-this": 0,
+
+    "max-len": ["error", { "code": 150 }],
+    "no-param-reassign": "warn",
+    "cypress/no-assigning-return-values": "warn",
+    "comma-dangle": ["error", "never"],
+
+    "no-unused-expressions": ["error", { "allowTernary": true }]
+  }
+}
