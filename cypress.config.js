@@ -27,7 +27,7 @@ module.exports = defineConfig({
     allureReportPath: 'allure-report'
   },
   e2e: {
-    baseUrl: 'https://www.way2automation.com',
+    baseUrl: 'https://...',
     video: true,
     specPattern: ['**/*.cy.js', '**/features/*.feature'],
     watchForFileChanges: false,
